@@ -1,0 +1,424 @@
+@media (max-width: 768px) {
+  .container {
+    max-width: 678px;
+    padding: 0 5px;
+  }
+  header .container {
+    -ms-grid-columns: 10% 1fr 67.5%;
+        grid-template-columns: 10% 1fr 67.5%;
+  }
+  main .welcome {
+    padding-bottom: 9%;
+  }
+  main .welcome .bg {
+    background: url(accets/leafs768.png) no-repeat 100% 57%;
+    padding-top: 9%;
+  }
+  main .welcome .bg .container {
+    -ms-grid-columns: 52% 48%;
+        grid-template-columns: 52% 48%;
+  }
+  main .welcome .bg .container .text {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+  }
+  main .welcome .bg .container .text h1 {
+    font-size: 35px;
+  }
+  main .welcome .bg .container .text p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 10%;
+  }
+  main .welcome .bg .container .text button {
+    width: 45%;
+    padding: 3% 6.5%;
+  }
+  main .about {
+    margin-top: 5%;
+  }
+  main .about .container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .about .container .text {
+    max-width: 100%;
+  }
+  main .about .container .text h2 {
+    margin: 0 auto;
+    max-width: 58%;
+    font-size: 35px;
+    line-height: 46px;
+    text-align: center;
+  }
+  main .about .container .text p {
+    margin-top: 8%;
+  }
+  main .about .container img {
+    margin-top: 10%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    max-width: 250px;
+    margin-bottom: 9%;
+  }
+  main .service {
+    padding-top: 8.5%;
+    padding-bottom: 18%;
+  }
+  main .service .container .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 9%;
+  }
+  main .service .container .info h2 {
+    max-width: 50%;
+    font-size: 35px;
+    line-height: 46px;
+  }
+  main .service .container .info ul {
+    margin-top: 6%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 10%;
+        grid-template-columns: 1fr 1fr 1fr 10%;
+    -webkit-column-gap: 10%;
+            column-gap: 10%;
+  }
+  main .service .container .info ul li button {
+    height: 176%;
+    width: 121%;
+  }
+  main .service .container .cards {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (1fr)[3];
+        grid-template-rows: repeat(3, 1fr);
+    -webkit-column-gap: 16%;
+            column-gap: 16%;
+    row-gap: 2.65%;
+  }
+  main .service .container .cards__item {
+    padding-bottom: 6%;
+  }
+  main .service .container .cards__item__photo {
+    max-width: 280px;
+  }
+  main .service .container .cards__item #cardPhoto1 {
+    background-size: 280px auto;
+  }
+  main .service .container .cards__item #cardPhoto2 {
+    background-size: 280px auto;
+  }
+  main .service .container .cards__item #cardPhoto3 {
+    background-size: auto 356px;
+  }
+  main .service .container .cards__item #cardPhoto4 {
+    background: url(accets/cards4.jpeg) 0 51% no-repeat;
+    background-size: 280px auto;
+  }
+  main .service .container .cards__item #cardPhoto5 {
+    background-size: 279px auto;
+  }
+  main .service .container .cards__item #cardPhoto6 {
+    background-size: 280px auto;
+  }
+  main .service .container .cards__item h3 {
+    margin-top: 3.5%;
+  }
+  main .service .container .cards__item p {
+    padding: 0 10%;
+  }
+  main .prices {
+    background: url(accets/leafsSmall.svg) no-repeat 93% 78%;
+    margin-top: 5.5%;
+    padding-bottom: 21.2%;
+  }
+  main .prices .container {
+    -ms-grid-columns: 50% 1fr 47%;
+        grid-template-columns: 50% 1fr 47%;
+  }
+  main .prices .container .left h2 {
+    margin-bottom: 16%;
+    font-size: 35px;
+    line-height: 42px;
+  }
+  main .prices .container .right {
+    margin-top: 32%;
+  }
+  main .prices .container .right h2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  main .prices .container .right button {
+    padding: 3.5% 10%;
+  }
+  main .contacts {
+    height: auto;
+  }
+  main .contacts .container {
+    padding-bottom: 65%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: url(accets/contact_woman768.png) no-repeat 52% 100%;
+  }
+  main .contacts .container h2 {
+    margin-top: 6%;
+  }
+  main .contacts .container .cities {
+    width: 67%;
+    margin-left: -1%;
+    margin-top: 15%;
+  }
+  footer {
+    margin-top: 2.5%;
+  }
+  footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .container .year {
+    width: 26%;
+  }
+  footer .container p {
+    margin-top: -2%;
+  }
+  footer .container .media {
+    padding-top: 2%;
+    width: 28%;
+  }
+}
+
+@media (max-width: 381px) {
+  .container {
+    max-width: 340px;
+    padding: 0 5px;
+  }
+  header .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .container nav {
+    display: none;
+  }
+  header .container .burger {
+    display: block;
+  }
+  main .welcome .bg {
+    background: none;
+    padding-top: 16%;
+  }
+  main .welcome .bg .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .welcome .bg .container .text h1 {
+    margin-bottom: 7%;
+    font-size: 25px;
+    line-height: 35px;
+  }
+  main .welcome .bg .container .text p {
+    margin-bottom: 7%;
+  }
+  main .welcome .bg .container .text button {
+    font-size: 10px;
+    width: 31%;
+    padding: 2% 4.5%;
+  }
+  main .about .container .text h2 {
+    font-size: 25px;
+    line-height: 33px;
+    max-width: 100%;
+  }
+  main .about .container .text p {
+    margin-top: 4%;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  main .about .container img {
+    margin-top: -1%;
+    max-width: 154px;
+    margin-bottom: 3%;
+  }
+  main .service {
+    padding-top: 7.5%;
+    padding-bottom: 6%;
+  }
+  main .service .container .info {
+    margin-bottom: 22%;
+  }
+  main .service .container .info h2 {
+    font-size: 25px;
+    line-height: 33px;
+    max-width: 59%;
+  }
+  main .service .container .info ul {
+    margin-top: 12%;
+    max-width: 70%;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+    -webkit-column-gap: 13%;
+            column-gap: 13%;
+    row-gap: 46%;
+  }
+  main .service .container .info ul li button {
+    font-size: 15px;
+    line-height: 20px;
+    height: 155%;
+  }
+  main .service .container .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .service .container .cards__item {
+    padding-bottom: 4%;
+  }
+  main .service .container .cards__item:not(:last-child) {
+    margin-bottom: 11%;
+  }
+  main .prices {
+    padding-bottom: 10%;
+    margin-top: 6.5%;
+    background: none;
+  }
+  main .prices .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .prices .container .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  main .prices .container .left h2 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 11%;
+  }
+  main .prices .container .left form {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 68%;
+    padding: 9% 5.5%;
+  }
+  main .prices .container .left form button {
+    padding: 7% 18.5%;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  main .prices .container .right {
+    margin-top: 6%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .prices .container .right h2 {
+    max-width: 73%;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5.5%;
+  }
+  main .prices .container .right button {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 2.5% 7%;
+  }
+  main .contacts .container {
+    background: url(accets/contact_woman380.png) no-repeat 50% 100%;
+    padding-bottom: 68%;
+  }
+  main .contacts .container h2 {
+    margin-top: 8%;
+    font-size: 25px;
+    line-height: 33px;
+  }
+  main .contacts .container .cities {
+    margin-top: 24%;
+    width: 92%;
+  }
+  main .contacts .container .cities__select #cities {
+    padding: 1.5% 7%;
+  }
+  footer .container {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  footer .container .year {
+    width: 52%;
+  }
+  footer .container .media {
+    width: 57%;
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=media.css.map */

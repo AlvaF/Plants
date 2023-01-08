@@ -1,0 +1,464 @@
+@media (max-width: 768px) {
+    .container {
+        max-width: 678px;
+        padding: 0 5px;
+    }
+
+    header {
+        .container {
+            grid-template-columns: 10% 1fr 67.5%;
+        }
+    }
+
+    main {
+        .welcome {
+            padding-bottom: 9%;
+
+            .bg {
+                background: url(accets/leafs768.png) no-repeat 100% 57%;
+                padding-top: 9%;
+
+                .container {
+                    grid-template-columns: 52% 48%;
+
+                    .text {
+                        grid-column: 1/2;
+
+                        h1 {
+                            font-size: 35px;
+                        }
+
+                        p {
+                            font-size: 16px;
+                            line-height: 25px;
+                            margin-bottom: 10%;
+                        }
+
+                        button {
+                            width: 45%;
+                            padding: 3% 6.5%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .about {
+            margin-top: 5%;
+
+            .container {
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+
+                .text {
+                    max-width: 100%;
+
+                    h2 {
+                        margin: 0 auto;
+                        max-width: 58%;
+                        font-size: 35px;
+                        line-height: 46px;
+                        text-align: center;
+                    }
+
+                    p {
+                        margin-top: 8%;
+                    }
+                }
+
+                img {
+                    margin-top: 10%;
+                    align-self: center;
+                    max-width: 250px;
+                    margin-bottom: 9%;
+                }
+            }
+        }
+
+        .service {
+            padding-top: 8.5%;
+            padding-bottom: 18%;
+
+            .container {
+                .info {
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 9%;
+
+                    h2 {
+                        max-width: 50%;
+                        font-size: 35px;
+                        line-height: 46px;
+                    }
+
+                    ul {
+                        margin-top: 6%;
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr 10%;
+                        column-gap: 10%;
+
+                        li {
+                            button {
+                                height: 176%;
+                                width: 121%;
+                            }
+                        }
+                    }
+                }
+
+                .cards {
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
+                    column-gap: 16%;
+                    row-gap: 2.65%;
+
+                    &__item {
+                        padding-bottom: 6%;
+
+                        &__photo {
+                            max-width: 280px;
+                        }
+
+                        #cardPhoto1 {
+                            background-size: 280px auto;
+                        }
+
+                        #cardPhoto2 {
+                            background-size: 280px auto;
+                        }
+
+                        #cardPhoto3 {
+                            background-size: auto 356px;
+                        }
+
+                        #cardPhoto4 {
+                            background: url(accets/cards4.jpeg) 0 51% no-repeat;
+                            background-size: 280px auto;
+                        }
+
+                        #cardPhoto5 {
+                            background-size: 279px auto;
+                        }
+
+                        #cardPhoto6 {
+                            background-size: 280px auto;
+                        }
+
+                        h3 {
+                            margin-top: 3.5%;
+                        }
+
+                        p {
+                            padding: 0 10%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .prices {
+            background: url(accets/leafsSmall.svg) no-repeat 93% 78%;
+            margin-top: 5.5%;
+            padding-bottom: 21.2%;
+
+            .container {
+                grid-template-columns: 50% 1fr 47%;
+
+                .left {
+                    h2 {
+                        margin-bottom: 16%;
+                        font-size: 35px;
+                        line-height: 42px;
+                    }
+                }
+
+                .right {
+                    margin-top: 32%;
+
+                    h2 {
+                        font-size: 25px;
+                        line-height: 35px;
+                    }
+
+                    button {
+                        padding: 3.5% 10%;
+                    }
+                }
+            }
+        }
+
+        .contacts {
+            height: auto;
+
+
+            .container {
+                padding-bottom: 65%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                // justify-content: center;
+                background: url(accets/contact_woman768.png) no-repeat 52% 100%;
+
+                h2 {
+                    margin-top: 6%;
+
+                }
+
+                .cities {
+                    width: 67%;
+                    margin-left: -1%;
+                    margin-top: 15%;
+                }
+            }
+        }
+    }
+
+    footer {
+        margin-top: 2.5%;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            // max-width: 25%;
+            align-items: center;
+
+            .year {
+                width: 26%;
+            }
+
+            p {
+                margin-top: -2%;
+            }
+
+            .media {
+                padding-top: 2%;
+                width: 28%;
+            }
+        }
+    }
+}
+
+@media (max-width: 381px) {
+    .container {
+        max-width: 340px;
+        padding: 0 5px;
+    }
+
+    header {
+        .container {
+            display: flex;
+            justify-content: space-between;
+
+            nav {
+                display: none;
+            }
+
+            .burger {
+                display: block;
+            }
+        }
+    }
+
+    main {
+        .welcome {
+            .bg {
+                background: none;
+                padding-top: 16%;
+
+                .container {
+                    display: flex;
+
+                    .text {
+                        // grid-column: 1/4;
+
+                        h1 {
+                            margin-bottom: 7%;
+                            font-size: 25px;
+                            line-height: 35px;
+                        }
+
+                        p {
+                            margin-bottom: 7%;
+                        }
+
+                        button {
+                            font-size: 10px;
+                            width: 31%;
+                            padding: 2% 4.5%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .about {
+
+            .container {
+                .text {
+                    h2 {
+                        font-size: 25px;
+                        line-height: 33px;
+                        max-width: 100%;
+                    }
+
+                    p {
+                        margin-top: 4%;
+                        font-size: 15px;
+                        line-height: 25px;
+                    }
+                }
+
+                img {
+                    margin-top: -1%;
+                    max-width: 154px;
+                    margin-bottom: 3%;
+                }
+            }
+        }
+
+        .service {
+            padding-top: 7.5%;
+            padding-bottom: 6%;
+
+            .container {
+                .info {
+                    margin-bottom: 22%;
+
+                    h2 {
+                        font-size: 25px;
+                        line-height: 33px;
+                        max-width: 59%;
+                    }
+
+                    ul {
+                        margin-top: 12%;
+                        max-width: 70%;
+                        grid-template-columns: repeat(2, 1fr);
+                        grid-template-rows: repeat(2, 1fr);
+                        column-gap: 13%;
+                        row-gap: 46%;
+
+                        li {
+                            button {
+                                font-size: 15px;
+                                line-height: 20px;
+                                height: 155%;
+                            }
+                        }
+                    }
+                }
+
+                .cards {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    &__item {
+                        padding-bottom: 4%;
+
+                        &:not(:last-child) {
+                            margin-bottom: 11%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .prices {
+            padding-bottom: 10%;
+            margin-top: 6.5%;
+            background: none;
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .left {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+
+                    h2 {
+                        font-size: 25px;
+                        line-height: 30px;
+                        margin-bottom: 11%;
+                    }
+
+                    form {
+                        align-self: center;
+                        width: 68%;
+                        padding: 9% 5.5%;
+
+                        button {
+                            padding: 7% 18.5%;
+                            font-size: 15px;
+                            line-height: 20px;
+                        }
+                    }
+                }
+
+                .right {
+                    margin-top: 6%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    h2 {
+                        max-width: 73%;
+                        text-align: center;
+                        font-size: 20px;
+                        margin-bottom: 5.5%;
+                    }
+
+                    button {
+                        font-size: 15px;
+                        line-height: 20px;
+                        padding: 2.5% 7%;
+                    }
+                }
+            }
+        }
+
+        .contacts {
+            .container {
+                background: url(accets/contact_woman380.png) no-repeat 50% 100%;
+                padding-bottom: 68%;
+
+                h2 {
+                    margin-top: 8%;
+                    font-size: 25px;
+                    line-height: 33px;
+                }
+
+                .cities {
+                    margin-top: 24%;
+                    width: 92%;
+
+                    &__select {
+                        #cities {
+                            padding: 1.5% 7%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        .container {
+            justify-content: start;
+
+            .year {
+                width: 52%;
+            }
+
+            .media {
+                width: 57%;
+                padding: 0;
+            }
+        }
+    }
+}
