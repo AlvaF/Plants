@@ -138,6 +138,7 @@ main {
                         display: flex;
                         align-items: center;
                         text-align: center;
+                        background-color: transparent;
                         border: 2px solid #E06733;
                         border-radius: 10px;
                         padding: 1.5% 4.5%;
@@ -239,8 +240,6 @@ main {
                         // }
 
                         button {
-                            // height: 100%;
-                            // width: 200%;
                             cursor: pointer;
                             font-family: 'Inika';
                             font-style: normal;
@@ -250,7 +249,7 @@ main {
                             color: #E06733;
                             border: 1px solid #E06733;
                             border-radius: 5px;
-                            // padding: 15% 50%;
+                            background-color: transparent;
                             height: 65%;
                             width: 110%;
 
@@ -356,9 +355,6 @@ main {
 
         .container {
             height: 100%;
-            // margin-right: 10%;
-            // display: flex;
-            // justify-content: space-between;
             display: grid;
             grid-template-columns: 27% 1fr 38%;
 
@@ -377,7 +373,6 @@ main {
                 }
 
                 form {
-                    // height: 50%;
                     width: 100%;
                     padding: 10% 11.5%;
                     display: flex;
@@ -395,6 +390,7 @@ main {
                         border-radius: 20px;
                         padding: 7% 15.5%;
                         cursor: pointer;
+                        background-color: transparent;
                         font-family: 'Inter';
                         font-style: normal;
                         font-weight: 700;
@@ -605,4 +601,3 @@ footer {
         }
     }
 }
-
