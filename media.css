@@ -219,7 +219,7 @@
   }
 }
 
-@media (max-width: 381px) {
+@media (max-width: 425px) {
   .container {
     max-width: 340px;
     padding: 0 5px;
